@@ -120,4 +120,4 @@ Speedtest® by Ookla® Global Fixed and Mobile Network Performance Maps. Based o
 
 ## Author
 
-**Nelson Nyamweya**: [LinkedIn](<your-linkedin-url>) · [GitHub](<your-github-url>)
+**Nelson Nyamweya**: [LinkedIn](https://www.linkedin.com/in/nelson-nyamweya-71b9a22a0) · [GitHub](https://github.com/NyamsN)
