@@ -1,0 +1,9 @@
+﻿Feature family,Role,GRU-MTL (% of total |SHAP|),XGBoost (% of total |SHAP|)
+Current and lagged stress ratio and gap,Target-formula component,61.1,69.7
+Capacity proxy and technology mix,Target-formula component,13.7,16.7
+Demand share (Ookla devices),Target-formula component,1.7,2.7
+Ookla test volume and confidence,Independent predictor,8.3,1.1
+Recorded sites,Independent predictor,6.2,5.0
+Spatial neighbourhood,Independent predictor,4.1,2.2
+Observed quality (Ookla speed),Independent predictor,3.2,2.5
+National trend,Independent predictor,1.7,0.2

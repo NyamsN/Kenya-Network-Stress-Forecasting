@@ -1,0 +1,6 @@
+﻿Method,Max within-site distance (m),Approximate sites,Mean cells per site,Max cells per site,Largest site bounding-box diagonal (m),Single-cell sites (%)
+"Single linkage (DBSCAN), not used",100,33570,2.35,8998,11688.48,74.75
+Complete linkage,50,49290,1.6,56,63.88,75.11
+Complete linkage,75,44922,1.75,62,100.35,69.8
+Complete linkage (used),100,40724,1.93,67,131.8,65.42
+Complete linkage,125,37784,2.08,67,168.8,62.42

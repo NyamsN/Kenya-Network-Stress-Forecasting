@@ -1,0 +1,17 @@
+﻿Feature,VIF
+log_capacity,63.91
+log_sites,32.24
+rel_ratio_lag1,12.8
+rel_ratio_lag2,11.42
+log_tests,9.57
+rel_ratio,8.71
+rel_ratio_lag3,5.82
+umts_share,4.41
+low_confidence,3.38
+dev_share_pct,2.85
+lte_share,2.66
+splag_dev_share_pct,2.23
+log_gap,2.1
+splag_rel_ratio,1.32
+nat_growth,1.17
+dl_mbps_f,1.11

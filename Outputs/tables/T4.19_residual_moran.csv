@@ -1,0 +1,5 @@
+﻿target q_idx,Quarter,Moran's I (stress residual),p stress (perm.),Moran's I (gap residual),p gap (perm.)
+13,Q4_24_25,-0.0573,0.084,0.0115,0.452
+14,Q1_25_26,0.0356,0.233,0.1196,0.001
+15,Q2_25_26,-0.0082,0.847,0.0227,0.295
+16,Q3_25_26,0.008,0.751,0.0009,0.866

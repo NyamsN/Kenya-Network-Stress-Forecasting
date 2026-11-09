@@ -1,0 +1,6 @@
+﻿Check,Value
+GRU-MTL seed-to-seed rank agreement (mean pairwise Spearman),0.91
+GRU-MTL seed-to-seed rank agreement (minimum pairwise Spearman),0.841
+"GRU-MTL vs XGBoost feature-ranking agreement (Spearman, shared features)",0.621
+"XGBoost temporal folds vs final model (mean Spearman; train ≤ 8, ≤ 10, ≤ 12)",0.958
+XGBoost temporal folds vs final model (minimum Spearman),0.941

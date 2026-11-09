@@ -1,0 +1,5 @@
+﻿Transition,Sub-county-quarters
+stay unstressed (0→0),3609
+enter stress (0→1),151
+leave stress (1→0),151
+stay stressed (1→1),793

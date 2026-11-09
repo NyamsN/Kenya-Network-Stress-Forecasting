@@ -1,0 +1,71 @@
+{
+  "ALL_DYN": [
+    "rel_ratio",
+    "log_gap",
+    "dev_share_pct",
+    "log_tests",
+    "dl_mbps_f",
+    "low_confidence",
+    "nat_growth",
+    "splag_rel_ratio",
+    "splag_dev_share_pct"
+  ],
+  "DYN": [
+    "rel_ratio",
+    "log_gap",
+    "dev_share_pct",
+    "log_tests",
+    "dl_mbps_f",
+    "low_confidence",
+    "nat_growth"
+  ],
+  "SPAT": [
+    "splag_rel_ratio",
+    "splag_dev_share_pct"
+  ],
+  "STAT": [
+    "log_capacity",
+    "lte_share",
+    "umts_share",
+    "log_sites"
+  ],
+  "TAB": [
+    "rel_ratio",
+    "log_gap",
+    "dev_share_pct",
+    "log_tests",
+    "dl_mbps_f",
+    "low_confidence",
+    "nat_growth",
+    "splag_rel_ratio",
+    "splag_dev_share_pct",
+    "rel_ratio_lag1",
+    "rel_ratio_lag2",
+    "rel_ratio_lag3",
+    "log_capacity",
+    "lte_share",
+    "umts_share",
+    "log_sites"
+  ],
+  "L": 4,
+  "HIDDEN": 32,
+  "LAM": 0.5,
+  "EPOCHS": {
+    "GRU-MTL (proposed)": 32,
+    "GRU-MTL without spatial lags": 34,
+    "LSTM-MTL": 36,
+    "T-GCN (graph conv + GRU)": 36,
+    "Single-task GRU (stress)": 29,
+    "Single-task GRU (gap)": 38
+  },
+  "XGB_DEPTH": 2,
+  "XGB_N": 200,
+  "SEEDS": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "K_NEIGH": 5
+}

@@ -1,0 +1,11 @@
+﻿Comparison,ΔROC-AUC,DeLong p,ΔROC CI low,ΔROC CI high,ΔPR-AUC CI low,ΔPR-AUC CI high,Cluster CI excludes 0,ΔMAE expected gap (TB),DM p
+GRU-MTL (proposed) vs GRU-MTL without spatial lags,0.0002,0.742,-0.001,0.0018,-0.0054,0.001,False,0.4139,0.2172
+GRU-MTL (proposed) vs LSTM-MTL,0.0,0.9927,-0.001,0.001,-0.0049,0.0027,False,-0.3921,0.0163
+GRU-MTL (proposed) vs Single-task GRUs (stress + gap),0.0,0.9005,-0.0006,0.0007,-0.0027,0.0022,False,0.0869,0.768
+GRU-MTL (proposed) vs LightGBM (two-part),0.001,0.5538,-0.0024,0.0045,-0.0101,0.0102,False,0.7827,0.475
+GRU-MTL (proposed) vs XGBoost (two-part),0.0017,0.2062,-0.0009,0.0051,-0.0064,0.0105,False,0.8666,0.2888
+GRU-MTL (proposed) vs Logit + two-part regression (hurdle),0.0025,0.1395,-0.0005,0.0062,-0.0073,0.0136,False,-1.8941,0.2357
+GRU-MTL (proposed) vs T-GCN (graph conv + GRU),0.0017,0.0295,0.0002,0.0035,-0.0027,0.0074,True,0.3202,0.4407
+GRU-MTL (proposed) vs Persistence,0.0272,0.0008,0.0123,0.0458,0.0167,0.0685,True,1.9323,0.2127
+GRU-MTL (proposed) vs Seasonal-naive,0.1203,0.0,0.072,0.174,0.1241,0.2643,True,-19.0974,0.0343
+T-GCN (graph conv + GRU) vs GRU-MTL without spatial lags,-0.0015,0.0331,-0.0031,-0.0001,-0.0096,-0.0003,True,0.0937,0.6828

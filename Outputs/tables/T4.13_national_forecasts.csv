@@ -1,0 +1,5 @@
+﻿Model,MAPE_%
+Naive (last value),18.29
+Drift (average growth),3.96
+"ARIMA(1,1,0) with drift on log",4.01
+ETS (additive trend) on log,3.96

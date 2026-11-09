@@ -1,0 +1,5 @@
+﻿Model,Evaluation,ROC_AUC,PR_AUC,MAE_stressed_TB,MAE_expected_TB
+GRU-MTL (proposed),Standard (all counties in training),0.9824,0.9389,86.5952,21.1983
+GRU-MTL (proposed),County held out,0.9813,0.9346,91.8071,21.784
+XGBoost (two-part),Standard (all counties in training),0.9807,0.9375,77.633,20.3316
+XGBoost (two-part),County held out,0.981,0.9369,81.3208,20.4811
